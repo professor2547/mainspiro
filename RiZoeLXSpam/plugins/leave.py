@@ -25,7 +25,7 @@ async def leave(e):
         if len(e.text) > 7:
             bc = rizoel[0]
             Xd = int(bc)
-            text = "Leaving....."
+            text = "chalo Ja rha Me Bhai Fir Milenge Kisi grp ki gaand Marne K liye"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(Xd))
@@ -36,7 +36,7 @@ async def leave(e):
         else:
              bc = e.chat_id
              Xd = int(bc)
-             text = "I'm Leaving This Group......"
+             text = "chalo Ja rha Me Bhai Fir Milenge Kisi grp ki gaand Marne K liye"
              if e.is_private:
                   dik = f"You Can't Do this Here !! \n\n {hl}leave <Channel or Chat ID> \n {hl}leave : type in the group bot will auto leave that group !"
                   await e.reply(dik, parse_mode=None, link_preview=None )
