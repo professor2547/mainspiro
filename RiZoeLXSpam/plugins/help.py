@@ -5,9 +5,9 @@ from time import time
 from datetime import datetime
 from RiZoeLXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://ftlb.herokuapp.com/wpVnZ2XCmGQ="
 
-Riz_Help = "__Click On Below Buttons for help__"
+Riz_Help = "Commands kaise bhula re tu Bc !"
 
 
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -34,7 +34,7 @@ async def help(event):
             Button.inline("• Extra •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/premium468")
            ],
            ],
            )              
@@ -149,13 +149,13 @@ async def helpback(event):
             Button.inline("Extra cmds", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/premium468")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -183,7 +183,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -210,7 +210,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own  Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -238,7 +238,7 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
 
