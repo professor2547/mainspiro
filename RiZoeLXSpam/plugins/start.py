@@ -11,7 +11,7 @@ RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5e
 
 Riz_Button = [
         [
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DNHxHELL")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/premium468")
         ],
         [
         Button.inline("• ᴄᴍᴅs •", data="help_back")
@@ -21,7 +21,7 @@ Riz_Button = [
 RizX_Button = [
         [
         Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/premium468"),
-        Button.url("Maker Me 😂", "https://t.me/professor2547")
+        Button.url("Me Noob", "https://t.me/professor2547")
         ],
         [
         Button.url("• Must Join •", "https://t.me/premium468")
